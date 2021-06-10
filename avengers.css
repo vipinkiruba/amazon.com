@@ -1,0 +1,58 @@
+.btoon p table{
+			font-size: 40px;
+		    cursor: pointer;
+		    color: #555;
+		     width: 30px;
+		    height: 30px;
+		    display: inline-block;
+		    line-height: 19px;
+		    text-align: center;
+			border-radius: 3px;
+			position: absolute;
+			margin-top: -150px;
+		}
+		.btoon p table:hover{
+			background: #222;
+    		color: white;
+		}
+		.secttt{
+			width: 98%;
+			height: 230px;
+			
+			margin: auto;
+			display: flex;
+			align-items: center;
+			overflow-x: auto;
+		}
+		.secttt::-webkit-scrollbar{
+			display: none;
+		}
+		.secttt .prod{
+			min-width: 165px;
+			height: 200px;
+			
+			margin:  0 2px  0 0;
+			border-radius: 0px;
+			position: relative;
+			left: 0;
+			transition: 0.5s;
+
+        }
+        .zz{
+	margin-left: 96%;
+}
+.yy{
+	margin-left: 2%;
+}
+		@media (max-width: 768px) {
+			.btoon h1{
+				font-size: 25px;
+			}
+			.btoon p table{
+				font-size: 30px;
+			}
+			.secttt .prod {
+				min-width: 49%;
+				margin:  0 10px  0 0;
+			}
+		}

@@ -1,0 +1,58 @@
+.bton p i{
+			font-size: 40px;
+		    cursor: pointer;
+		    color: #555;
+		     width: 30px;
+		    height: 30px;
+		    display: inline-block;
+		    line-height: 19px;
+		    text-align: center;
+			border-radius: 3px;
+			position: absolute;
+			margin-top: -150px;
+		}
+		.bton p i:hover{
+			background: #222;
+    		color: white;
+		}
+		.sect{
+			width: 98%;
+			height: 230px;
+			
+			margin: auto;
+			display: flex;
+			align-items: center;
+			overflow-x: auto;
+		}
+		.sect::-webkit-scrollbar{
+			display: none;
+		}
+		.sect .product{
+			min-width: 200px;
+			height: 200px;
+			
+			margin:  0 2px  0 0;
+			border-radius: 0px;
+			position: relative;
+			left: 0;
+			transition: 0.5s;
+
+		}
+.z{
+	margin-left: 96%;
+}
+.y{
+	margin-left: 2%;
+}
+		@media (max-width: 768px) {
+			.bton h1{
+				font-size: 25px;
+			}
+			.bton p span{
+				font-size: 30px;
+			}
+			.sect .product {
+				min-width: 49%;
+				margin:  0 10px  0 0;
+			}
+		}
